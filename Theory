@@ -1,0 +1,19 @@
+A data point which behaves differently from the rest of the data point.This can deviate our ML model.Treat them carefully,remove them,treat them.
+Out liers can be dangerous and cannot be.
+
+When is outlier dangerous?
+=>if in a problem ,thedataset contains age as 300 then it is an outlier and we should remove it as it is not possible.
+When useful?
+=>If i want to make anomaly detection,then outliers are needed as they give us some information.
+
+So,with outliers either we can remove them or we can add an additional column in our dataset so that that outlier might become the normal data point.
+
+Effect of outlier:-
+bad effect on Linear regression,logistic regression,adaboost,deep learning-common pattern-we calculate weights over here.
+not much effect on tree based algos-bcz. they mainly cut our data space.
+
+How to treat outliers?
+
+How to detect outliers?
+=>1)if the column is normally distributed-the range is (mean+-3*s.d.)
+  2)skewed distribution-data is shifted left or right
